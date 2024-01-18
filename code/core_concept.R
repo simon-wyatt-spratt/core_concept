@@ -1,38 +1,35 @@
-# ARTICLE TITLE:  Core concept: defining cores and core reduction sequences in Australian archaeology
+# ARTICLE TITLE:  Core concept: defining cores in the archaeology of Indigenous Australia
 
 # AUTHOR: Simon Wyatt-Spratt
 
-# JOURNAL: Journal of Paleolithic Archaeology
+# JOURNAL: Lithic Technology
 
 # SCRIPT AUTHOR: Simon Wyatt-Spratt
 
 # SCRIPT CONTACT: simon.wyatt-spratt@sydney.edu.au
 
-# ACKNOWLEDGEMENTS:
-
-# LAST EDITED: 11/01/2024
+# LAST EDITED: 16/01/2024
 
 # ABSTRACT
-# One of the biggest impediments to the analysis of cores and reduction strategies in the archaeology 
-# of Indigenous Australia is the slippery use of terminology. This impares comparative analyses and 
-# limits our  ability to extrapolate meaningful information from our lithic analyses. This situation 
-# has resulted from a history of poorly articulated theoretical frameworks. These frameworks impact 
-# both the way that archaeologists have interpreted the results of lithic analysis, but more
-# fundamentally how they practise lithic analysis itself. While there has been some discussion and 
-# debate about the interpretative frameworks used to interpret the results of lithic analysis, the 
-# theoretical underpinnings of lithic analysis in Australia have only occasionally been interrogated. 
-# This has led to a situation where the same terminology for basic concepts in lithic analysis is used
-# across Australia, but with different meanings depending on the archaeologist who is using it. This 
-# paper reviews the different theoretical approaches archaeologists have  used when interpreting 
-# Indigenous Australian stone artefact assemblages. The aim of this paper is to explore how the use of 
-# different theoretical frameworks has resulted in 1) fundamentally different interpretations of the 
-# lithic record, and 2) the same terminology for cores and sequence models being used in subtly but 
-# significantly different ways.
+# One of the biggest impediments to the analysis of cores in the archaeology of Indigenous
+# Australia is the slippery use of terminology. This impairs comparative analyses and 
+# limits our ability to extrapolate meaningful information from our lithic analyses. This 
+# situation has resulted from a history of poorly articulated theoretical frameworks. 
+# These frameworks impact the way that archaeologists have interpreted the results of 
+# lithic analysis, but more fundamentally how they practise lithic analysis. While there 
+# has been some discussion and debate about the interpretative frameworks used to 
+#interpret the results of lithic analysis, the theoretical underpinnings of lithic 
+# analysis in Australia have only occasionally been interrogated. This has led to a 
+# situation where the same terminology for basic concepts in lithic analysis is used 
+# across Australia, but with different meanings depending on the archaeologist who is using
+# it. The aim of this paper is to explore how the use of different theoretical frameworks 
+# has resulted in 1) fundamentally different interpretations of the lithic record, and 2) 
+# the same terminology for cores being used in subtly but significantly different ways.
 
 # SYSTEM INFORMATION
 # R version 4.3.2 (2023-10-31)
 # Platform: x86_64-w64-mingw32/x64 (64-bit)
-# Running under: Windows 10 x64 (build 19042.928)
+# Running under: Windows 10 x64 (build 19042.2965)
 
 # ATTACHED BASE PACKAGES:
 # [1] stats     graphics  grDevices utils     datasets 
@@ -167,15 +164,15 @@ figure_1b <- ggplot(
 figure_1b
 
 figure_1  <- plot_grid(figure_1a, figure_1b, 
-                       labels = c('a', 'b'), 
-                       label_size = 10,
-                       hjust = -0.075,
                        ncol = 1)
 figure_1
 
-ggsave2("results/figure_1.tiff", 
+ggsave2("results/figure_1.tiff",
         plot = figure_1, 
-        scale = 1, 
+        scale = 1,
+        width = 150,
+        height = 150,
+        units = c("mm"),
         dpi = 400)
 
 # FIGURE 2.
@@ -207,10 +204,10 @@ figure_2
 
 ggsave2("results/figure_2.tiff", 
         plot = figure_2, 
-        scale = 1, 
-        width = 180, 
-        height = 90, 
-        units = "mm", 
+        scale = 1,
+        width = 150,
+        height = 75,
+        units = ("mm"),
         dpi = 400)
 
 # FIGURE 3.
@@ -335,7 +332,6 @@ figure_3b <- ggplot(
 figure_3b
 
 figure_3 <- ggarrange(figure_3a, figure_3b,
-                      labels = c('a', 'b'),
                       ncol = 1,
                       common.legend = TRUE, 
                       legend = "bottom")
@@ -343,7 +339,10 @@ figure_3
 
 ggsave2("results/figure_3.tiff", 
         plot = figure_3, 
-        scale = 1, 
+        scale = 1,
+        width = 150,
+        height = 150,
+        units = c("mm"),
         dpi = 400)
 
 # TABLE 1.
@@ -376,9 +375,9 @@ count.category <- dataset.category %>%
 write.csv(count.category, "results/core_concept_table2.csv", row.names = TRUE)
 
 # TABLE 3. 
-# Commonly defined subcategories of cores in the analysis of Indigenous Australian lithic 
-# technology. All terms with ≥5 occurrences are shown. Terms have been slightly standardised. This was 
-# done to ensure consistent spellings and punctuation (e.g. multi-platform and multiplatform), rather 
+# Table 3. Commonly defined subcategories of cores in the analysis of Indigenous Australian lithic 
+# technology. All terms with ≥10 occurrences are shown. Terms have been slightly standardised. This was 
+# done to ensure consistent spellings and punctuation (e.g. multi-platform and multiplatform), rather
 # than to group similar but different terms (e.g. multiple platform core and multiplatform core).
 
 term.sub  <- select(dataset.subcategory, "reference", "decade", "term", "definition") %>% 
