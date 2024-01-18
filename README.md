@@ -26,3 +26,5 @@ For anymore information on the paper, code, or resources please contact Simon Wy
 Text and figures : CC-BY-4.0
 
 Data : CC-0 attribution requested in reuse
+
+<a href="https://zenodo.org/doi/10.5281/zenodo.10526388"><img src="https://zenodo.org/badge/723597451.svg" alt="DOI"></a>
