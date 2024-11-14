@@ -2,7 +2,8 @@
 
 Title: Core concept: defining cores in the archaeology of Indigenous Australia
 
-Journal: 
+Journal:
+
 Author: Simon Wyatt-Spratt
 
 Code Author: Simon Wyatt-Spratt
@@ -13,7 +14,7 @@ Abstract: One of the biggest impediments to the analysis of cores in the archaeo
 
 Keywords: archaeology of Indigenous Australia; lithic technology; cores; history of archaeology; lithic taxonomy
 
-Acknowledgements: Many thanks to Amy Mosig Way for extensive and insightful commentary on early drafts of this paper. Thanks also to Anuja Limaye as well as two anonymous reviewers for suggestions which sharpened the paper. All errors and omissions remain my own.
+Acknowledgements:
 
 Repository Author: Simon Wyatt-Spratt
 
