@@ -1,216 +1,219 @@
 "","term","sub_count"
-"1","horsehoof core",28
-"2","bipolar core",27
-"3","bifacial core",16
-"4","single platform core",16
+"1","bipolar core",31
+"2","horsehoof core",30
+"3","single platform core",18
+"4","bifacial core",16
 "5","core tool",15
-"6","blade core",14
-"7","bidirectional core",13
-"8","multiplatform core",13
+"6","multiplatform core",15
+"7","blade core",14
+"8","bidirectional core",13
 "9","unidirectional core",12
-"10","multidirectional core",10
-"11","core fragment",9
+"10","core fragment",10
+"11","multidirectional core",10
 "12","microblade core",9
 "13","test core",8
 "14","unifacial core",8
 "15","flake core",7
-"16","nuclear tool",6
-"17","prismatic core",6
-"18","radial core",6
-"19","chopper",5
+"16","chopper",6
+"17","nuclear tool",6
+"18","prismatic core",6
+"19","radial core",6
 "20","burin blade core",4
-"21","multiple core",4
-"22","prepared core",4
-"23","secondary core",4
-"24","burin core",3
-"25","conical core",3
-"26","core scraper",3
+"21","burin core",4
+"22","core scraper",4
+"23","multiple core",4
+"24","prepared core",4
+"25","secondary core",4
+"26","conical core",3
 "27","coroid",3
 "28","flake blank",3
 "29","karta",3
-"30","pebble chopper",3
-"31","polymorphic core",3
-"32","primary core",3
-"33","tranchet core",3
-"34","Levallois core",2
-"35","amorphous core",2
-"36","bifacial cobble core",2
-"37","biplatform core",2
-"38","bipolar/scalar pieces",2
-"39","core implement",2
-"40","core with preparation",2
-"41","corescraper",2
-"42","fabricator",2
-"43","opposed core",2
-"44","other core",2
-"45","retouched core",2
-"46","shark's tooth core",2
-"47","split pebble",2
-"48","tertiary core",2
-"49","tranchet flake core",2
-"50","trimmed core",2
-"51","uniplatform core",2
-"52","unprepared core",2
-"53","utilised core",2
-"54","""flaked"" pebble",1
-"55","Camooweal multiple facet blade core",1
-"56","Camooweal multiple scar core",1
-"57","Camooweal standard blade core",1
-"58","Camooweal standard method blade core",1
-"59","Camooweal standard method blade core variant 1",1
-"60","Camooweal standard method blade core variant 2",1
-"61","Camooweal standard method blade core variant 3",1
-"62","Camooweal standard method blade core variant 4",1
-"63","Camooweal standard method blade core variant 5",1
-"64","Camooweal standard method blade core variant 6",1
-"65","Tartar's cap scraper",1
-"66","alternate platform core",1
-"67","alternate platform core or nucleus",1
-"68","alternatively flake core",1
-"69","amorphous or expedient core",1
-"70","bevel-edged tool",1
-"71","biconical core",1
-"72","biface pebble tool",1
-"73","biface trimmed core implement",1
-"74","bifacial centripetal quartz crystal core Type 7",1
-"75","bifacial end truncation
+"30","other core",3
+"31","pebble chopper",3
+"32","polymorphic core",3
+"33","primary core",3
+"34","tranchet core",3
+"35","Levallois core",2
+"36","amorphous core",2
+"37","bifacial cobble core",2
+"38","biplatform core",2
+"39","bipolar/scalar pieces",2
+"40","core implement",2
+"41","core with preparation",2
+"42","corescraper",2
+"43","fabricator",2
+"44","high backed core",2
+"45","horse-hoof core",2
+"46","opposed core",2
+"47","producer core",2
+"48","pyramidal core",2
+"49","retouched core",2
+"50","rotated core",2
+"51","shark's tooth core",2
+"52","split pebble",2
+"53","tertiary core",2
+"54","tranchet flake core",2
+"55","trimmed core",2
+"56","uniplatform core",2
+"57","unprepared core",2
+"58","utilised core",2
+"59","""flaked"" pebble",1
+"60","Camooweal multiple facet blade core",1
+"61","Camooweal multiple scar core",1
+"62","Camooweal standard blade core",1
+"63","Camooweal standard method blade core",1
+"64","Camooweal standard method blade core variant 1",1
+"65","Camooweal standard method blade core variant 2",1
+"66","Camooweal standard method blade core variant 3",1
+"67","Camooweal standard method blade core variant 4",1
+"68","Camooweal standard method blade core variant 5",1
+"69","Camooweal standard method blade core variant 6",1
+"70","Tartar's cap scraper",1
+"71","alternate platform core",1
+"72","alternate platform core or nucleus",1
+"73","alternatively flake core",1
+"74","amorphous or expedient core",1
+"75","bevel-edged tool",1
+"76","biconical core",1
+"77","biface pebble tool",1
+"78","biface trimmed core implement",1
+"79","bifacial centripetal quartz crystal core Type 7",1
+"80","bifacial end truncation
 x 1 quartz crystal core Type 3",1
-"76","bifacial end truncation
+"81","bifacial end truncation
 x 2 quartz crystal core Type 4",1
-"77","bifacial tablet core",1
-"78","bipolar core core",1
-"79","bipolar core quartz",1
-"80","bipolar micro-cores",1
-"81","bipolar piece",1
-"82","bipyramid disc core",1
-"83","bladelet core",1
-"84","broken bipolar core",1
-"85","broken core",1
-"86","chopper or chopping tool",1
-"87","cobble core",1
-"88","columnar quartz crystal core Type 9",1
-"89","compound platform core or nucleus",1
-"90","conical and semi-conical core",1
-"91","core burin",1
-"92","core fragment tool",1
-"93","core implement or coroid",1
-"94","core quartz",1
-"95","core subtype 1a",1
-"96","core tool fragment",1
-"97","core with discrete platforms",1
-"98","core with no visible preparation",1
-"99","core with unidirectional flaking from a striking platform",1
-"100","coroid fabricators",1
-"101","coroid implement",1
-"102","coroid pieces",1
-"103","cuboid core",1
-"104","discoidal core",1
-"105","discoidal or bifacial core",1
-"106","dual platform core",1
-"107","end truncation, mixture quartz crystal core Type 5",1
-"108","exhausted core",1
-"109","flake blank core",1
-"110","flaked cobble",1
-"111","flaked fragment",1
-"112","flaked pebble",1
-"113","flat core",1
-"114","flatbase circular core",1
-"115","formal or prepared core",1
-"116","freehand core",1
-"117","glass core",1
-"118","globular core",1
-"119","gouge",1
-"120","handaxe",1
-"121","handaxe provisional type 5",1
-"122","high backed core",1
-"123","high-crowned scraper",1
-"124","horse-hoof core",1
-"125","horsehoof  core",1
-"126","implement core",1
-"127","indeterminate core",1
-"128","indiscriminate platform core or nucleus",1
-"129","informal core",1
-"130","informal or amorphous core",1
-"131","informal type I core",1
-"132","informal type II core",1
-"133","informal type III core",1
-"134","initial core",1
-"135","initial quartz core",1
-"136","irregularly flake core",1
-"137","kodja",1
-"138","large biface",1
-"139","large core",1
-"140","large core with multiple striking platforms subtype 1c",1
-"141","lateral core",1
-"142","macro-blade core",1
-"143","micro-core",1
-"144","micro-core with multiple striking platforms subtype 1e",1
-"145","micro-core with single striking platforms subtype 1d",1
-"146","microlithic core",1
-"147","modified core or chopper",1
-"148","multifaceted core",1
-"149","multiplatform early reduction core",1
-"150","multiplatform or revolved core",1
-"151","multiplatform quartz crystal core Type 8",1
-"152","multiplatformed core",1
-"153","multiple platform core",1
-"154","multiple platform other core",1
-"155","n/a core",1
-"156","nodule core",1
-"157","nucleus Levallois à pointe",1
-"158","other crystal core Type 10",1
-"159","other early reduction core",1
-"160","pebble tool",1
-"161","percussion flaked core",1
-"162","pièces écaillées core",1
-"163","polygonal nucleus",1
-"164","polyhedral core",1
-"165","pre-core",1
-"166","prismatic nucleus with a simple platform",1
-"167","producer core",1
-"168","pure core",1
-"169","push-bike seat axe",1
-"170","pyramidal core",1
-"171","radial or centripetal cores",1
-"172","reduced outcrop",1
-"173","reduced quartz core",1
-"174","retouched/utilised core",1
-"175","rotated core",1
-"176","scalar core",1
-"177","scraper",1
-"178","secondary nucleus",1
-"179","simple core",1
-"180","simple or plain platform core",1
-"181","simple platform core or nucleus",1
-"182","single platform flat core",1
-"183","single platform other core",1
-"184","skin scraper",1
-"185","slab core",1
-"186","small biface variety 1",1
-"187","small biface variety 2",1
-"188","small bifacial early reduction core",1
-"189","small core",1
-"190","small unifacial pebble core",1
-"191","tabular blade core",1
-"192","technical core",1
-"193","terminal quartz core",1
-"194","tranchet blade core",1
-"195","transitional form intermediate
+"82","bifacial tablet core",1
+"83","bipolar core core",1
+"84","bipolar core quartz",1
+"85","bipolar micro-cores",1
+"86","bipolar piece",1
+"87","bipyramid disc core",1
+"88","bladelet core",1
+"89","broken bipolar core",1
+"90","broken core",1
+"91","chopper or chopping tool",1
+"92","cobble core",1
+"93","columnar quartz crystal core Type 9",1
+"94","compound platform core or nucleus",1
+"95","conical and semi-conical core",1
+"96","core burin",1
+"97","core fragment tool",1
+"98","core implement or coroid",1
+"99","core preform",1
+"100","core quartz",1
+"101","core subtype 1a",1
+"102","core tool fragment",1
+"103","core with discrete platforms",1
+"104","core with no visible preparation",1
+"105","core with unidirectional flaking from a striking platform",1
+"106","coroid fabricators",1
+"107","coroid implement",1
+"108","coroid pieces",1
+"109","cuboid core",1
+"110","disc core",1
+"111","discoidal core",1
+"112","discoidal or bifacial core",1
+"113","dual platform core",1
+"114","end truncation, mixture quartz crystal core Type 5",1
+"115","exhausted core",1
+"116","flake blank core",1
+"117","flaked cobble",1
+"118","flaked fragment",1
+"119","flaked pebble",1
+"120","flat core",1
+"121","flatbase circular core",1
+"122","formal or prepared core",1
+"123","freehand core",1
+"124","glass core",1
+"125","globular core",1
+"126","gouge",1
+"127","handaxe",1
+"128","handaxe provisional type 5",1
+"129","high-crowned scraper",1
+"130","implement core",1
+"131","indeterminate core",1
+"132","indiscriminate platform core or nucleus",1
+"133","informal core",1
+"134","informal or amorphous core",1
+"135","informal type I core",1
+"136","informal type II core",1
+"137","informal type III core",1
+"138","initial core",1
+"139","initial quartz core",1
+"140","irregularly flake core",1
+"141","kodja",1
+"142","large biface",1
+"143","large core",1
+"144","large core with multiple striking platforms subtype 1c",1
+"145","lateral core",1
+"146","macro-blade core",1
+"147","micro-core",1
+"148","micro-core with multiple striking platforms subtype 1e",1
+"149","micro-core with single striking platforms subtype 1d",1
+"150","microlithic core",1
+"151","modified core or chopper",1
+"152","multifaceted core",1
+"153","multiplatform early reduction core",1
+"154","multiplatform or revolved core",1
+"155","multiplatform quartz crystal core Type 8",1
+"156","multiplatformed core",1
+"157","multiple platform core",1
+"158","multiple platform other core",1
+"159","n/a core",1
+"160","nodule core",1
+"161","nucleus Levallois � pointe",1
+"162","other crystal core Type 10",1
+"163","other early reduction core",1
+"164","pebble tool",1
+"165","percussion flaked core",1
+"166","pi�ces �caill�es core",1
+"167","platform core",1
+"168","polygonal nucleus",1
+"169","polyhedral core",1
+"170","pre-core",1
+"171","prismatic nucleus with a simple platform",1
+"172","product core",1
+"173","pure core",1
+"174","push-bike seat axe",1
+"175","radial or centripetal cores",1
+"176","reduced outcrop",1
+"177","reduced quartz core",1
+"178","retouched/utilised core",1
+"179","scalar core",1
+"180","scraper",1
+"181","secondary nucleus",1
+"182","simple core",1
+"183","simple or plain platform core",1
+"184","simple platform core or nucleus",1
+"185","single platform flat core",1
+"186","single platform other core",1
+"187","skin scraper",1
+"188","slab core",1
+"189","small biface variety 1",1
+"190","small biface variety 2",1
+"191","small bifacial early reduction core",1
+"192","small core",1
+"193","small unifacial pebble core",1
+"194","tabular blade core",1
+"195","technical core",1
+"196","terminal quartz core",1
+"197","tranchet blade core",1
+"198","transitional form intermediate
 between Levallois point core and prismatic blade core",1
-"196","trimmed pebble implement",1
-"197","unidirectional bipolar core",1
-"198","uniface pebble implement Sumatra type",1
-"199","uniface pebble implement type A",1
-"200","uniface pebble implement type B",1
-"201","uniface pebble implement type C",1
-"202","uniface pebble implement type D",1
-"203","uniface pebble implements",1
-"204","uniface pebble tool",1
-"205","unifacial centripetal quartz crystal core Type 6",1
-"206","unifacial end truncation x 1 quartz crystal core Type 1",1
-"207","unifacial end truncation x 2 quartz crystal core Type 2",1
-"208","unifacially flake cobble",1
-"209","unutilised core",1
-"210","upright scraper",1
-"211","utilised nucleus",1
-"212","yodda",1
+"199","trimmed pebble implement",1
+"200","unidirectional bipolar core",1
+"201","uniface pebble implement Sumatra type",1
+"202","uniface pebble implement type A",1
+"203","uniface pebble implement type B",1
+"204","uniface pebble implement type C",1
+"205","uniface pebble implement type D",1
+"206","uniface pebble implements",1
+"207","uniface pebble tool",1
+"208","unifacial centripetal quartz crystal core Type 6",1
+"209","unifacial end truncation x 1 quartz crystal core Type 1",1
+"210","unifacial end truncation x 2 quartz crystal core Type 2",1
+"211","unifacially flake cobble",1
+"212","unutilised core",1
+"213","upright scraper",1
+"214","utilised nucleus",1
+"215","yodda",1
