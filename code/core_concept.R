@@ -8,26 +8,27 @@
 
 # SCRIPT CONTACT: simon.wyatt-spratt@sydney.edu.au
 
-# LAST EDITED: 16/01/2024
+# LAST EDITED: 4/01/2025
 
 # ABSTRACT
-# One of the biggest impediments to the analysis of cores in the archaeology of Indigenous
-# Australia is the slippery use of terminology. This impairs comparative analyses and 
-# limits our ability to extrapolate meaningful information from our lithic analyses. This 
-# situation has resulted from a history of poorly articulated theoretical frameworks. 
-# These frameworks impact the way that archaeologists have interpreted the results of 
-# lithic analysis, but more fundamentally how they practise lithic analysis. While there 
-# has been some discussion and debate about the interpretative frameworks used to 
-#interpret the results of lithic analysis, the theoretical underpinnings of lithic 
-# analysis in Australia have only occasionally been interrogated. This has led to a 
-# situation where the same terminology for basic concepts in lithic analysis is used 
-# across Australia, but with different meanings depending on the archaeologist who is using
-# it. The aim of this paper is to explore how the use of different theoretical frameworks 
-# has resulted in 1) fundamentally different interpretations of the lithic record, and 2) 
-# the same terminology for cores being used in subtly but significantly different ways.
+# One of the biggest impediments to the analysis of cores in the archaeology of 
+# Indigenous Australia is the slippery use of terminology. This impairs comparative 
+# analyses and limits our ability to extrapolate meaningful information from our 
+# lithic analyses. This situation has resulted from a history of poorly articulated 
+# theoretical frameworks. These frameworks impact the way that archaeologists have 
+# interpreted the results of lithic analysis, but more fundamentally how they 
+# practise lithic analysis. While there has been some discussion and debate about 
+# the interpretative frameworks used to interpret the results of lithic analysis, 
+# the theoretical underpinnings of lithic analysis in Australia have only 
+# occasionally been interrogated. This has led to a situation where the same 
+# terminology for basic concepts in lithic analysis is used across Australia, but 
+# with different meanings depending on the archaeologist who is using it. The aim 
+# of this paper is to explore how the historical development of lithic analysis 
+# in Australia has resulted in the same terminology for cores being used in subtly 
+# but fundamentally different ways.
 
 # SYSTEM INFORMATION
-# R version 4.3.2 (2023-10-31)
+# R version 4.4.1 (2024-06-14)
 # Platform: x86_64-w64-mingw32/x64 (64-bit)
 # Running under: Windows 10 x64 (build 19042.2965)
 
@@ -99,7 +100,7 @@ dataset.cited       <- filter(core.definitions, definitions_cited != "na") %>%
 
 # ANALYSIS
 
-n_distinct(dataset.australia$reference)           # number of unique references which refers to cores
+n_distinct(dataset.australia$reference)           # number of unique references which refer to cores
 n_distinct(dataset.australia.defined$reference)   # number of unique references with a core definition
 n_distinct(dataset.australia.cites$reference)     # number of unique references with a definition is cited
 n_distinct(dataset.australia.undefined$reference) # number of unique references where a core term is used but not defined
@@ -387,6 +388,7 @@ term.sub  <- select(dataset.subcategory, "reference", "decade", "term", "definit
   mutate(term = str_replace_all(term, "core-", "core")) %>%
   mutate(term = str_replace_all(term, "flake that has been used as a core", "flake core")) %>%
   mutate(term = str_replace_all(term, "horsehoof core subtype 1b", "horsehoof core")) %>% 
+  mutate(term = str_replace_all(term, "microcore", "micro core")) %>% 
   mutate(term = str_replace_all(term, "multi-", "multi")) %>%
   mutate(term = str_replace_all(term, "single-platform", "single platform")) %>%
   mutate(term = str_replace_all(term, "uni-", "uni")) %>%
@@ -415,4 +417,3 @@ write.csv(count.component.cat , "results/core_concept_table4.csv", row.names = T
 count.component.sub <- dataset.subcategory %>% count(pick(contains("component")), sort = TRUE) %>%
   mutate(percentage = n/sum(n))
 write.csv(count.component.sub , "results/core_concept_table5.csv", row.names = TRUE)
-
